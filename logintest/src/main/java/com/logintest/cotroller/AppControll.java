@@ -25,6 +25,7 @@ public class AppControll {
 	@GetMapping("/")
 	public String welcome() throws SQLException {
 		counter = 0;
+		System.out.println("fsafa");
 		return "welcome.html";
 	}
 	
